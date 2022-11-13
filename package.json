@@ -1,0 +1,24 @@
+{
+  "name": "challenge-20-assignment",
+  "version": "1.0.0",
+  "description": "challenge-20-assignment for RUT-web-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdibartolo1/challenge-20-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickdibartolo1/challenge-20-assignment/issues"
+  },
+  "homepage": "https://github.com/nickdibartolo1/challenge-20-assignment#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
