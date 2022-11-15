@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import { NavLink } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom'
 
 export default function ColorSchemesExample() {
     return (
@@ -10,12 +10,12 @@ export default function ColorSchemesExample() {
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand>NickDibartolo</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <NavLink to="/">Home</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
-                        <NavLink to="/resume">Resume</NavLink>
+                    <Nav className="me-3 ">
+                        <Nav.Link><NavLink to="/">Home</NavLink></Nav.Link>
+                        <Nav.Link><NavLink to="/about">About</NavLink></Nav.Link>
+                        <Nav.Link><NavLink to="/projects">Projects</NavLink></Nav.Link>
+                        <Nav.Link><NavLink to="/contact">Contact</NavLink></Nav.Link>
+                        <Nav.Link><NavLink to="/resume">Resume</NavLink></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
