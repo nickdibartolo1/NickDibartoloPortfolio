@@ -1,0 +1,45 @@
+.bg{
+    background-color:rgb(210, 203, 231)
+}
+
+.intro-img{
+    clip-path: circle();
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.about-img{
+width: 350px;
+float: right;
+margin-left: 20px;
+}
+
+.main-text{
+    font-family: 'Martel', serif;
+}
+
+.intro-text{
+    text-align: center;
+    font-family: 'Martel', serif;
+    padding: 2.2rem;
+}
+
+.centered-text{
+text-align: center;
+}
+
+.conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.about-text{
+text-align: center;
+padding: 15px
+
+}

@@ -9,7 +9,7 @@ export default function ColorSchemesExample() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>NickDibartolo</Navbar.Brand>
+                    <Navbar.Brand>NDPortfolio</Navbar.Brand>
                     <Nav className="me-3 ">
                         <Nav.Link><NavLink to="/">Home</NavLink></Nav.Link>
                         <Nav.Link><NavLink to="/about">About</NavLink></Nav.Link>
@@ -22,30 +22,3 @@ export default function ColorSchemesExample() {
         </>
     )
 }
-
-
-// export default function NavbarMenu() {
-//     return (
-//         <Navbar bg="dark">
-//             <div>
-//                 <ul>
-//                     <li>
-//                         <NavLink to="/">Home</NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="/about">About</NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="/projects">Projects</NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="/resume">Resume</NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="/contact">Contact</NavLink>
-//                     </li>
-//                 </ul>
-//             </div>
-//         </Navbar>
-//     )
-// }

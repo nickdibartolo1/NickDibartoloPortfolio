@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarMenu from './components/NavbarMenu';
-import Home from './components/Home'
-import About from './components/About'
-import Projects from './components/Projects'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
+import Home from './mainComponents/Home'
+import About from './mainComponents/About'
+import Projects from './mainComponents/Projects'
+import Resume from './mainComponents/Resume'
+import Contact from './mainComponents/Contact'
 
 
 
@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 export default function App() {
     return (
         <>
+        <div className="bg">
             <Router>
                 <NavbarMenu />
                 <Routes>
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/" element={<Home />}></Route>
                 </Routes>
             </Router>
+            </div>
         </>
     )
 }
