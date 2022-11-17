@@ -4,21 +4,21 @@
 
 .intro-img{
     clip-path: circle();
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 }
 
 .about-img{
-width: 350px;
-float: right;
-margin-left: 20px;
+    width: 350px;
+    float: right;
+    margin-left: 20px;
 }
 
 .main-text{
-    font-family: 'Martel', serif;
+font-family: 'Martel', serif;
 }
 
 .intro-text{
@@ -39,7 +39,13 @@ text-align: center;
 }
 
 .about-text{
-text-align: center;
-padding: 15px
+    text-align: center;
+    padding: 15px
+
+}
+
+.connect-links{
+    padding: 0 15px 0 15px;
+    text-align: center;
 
 }

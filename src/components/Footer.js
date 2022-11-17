@@ -7,13 +7,15 @@ export default function Footer() {
                 <p>
                     <h3 className="centered-text text-white">Connect with me!</h3>
                     <hr />
-                    <a href="https://github.com/nickdibartolo1/" target="" rel="">
-                        Github
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/nicholas-dibartolo-a93310245/" target="" rel="">
-                        LinkedIn
-                    </a>
+                    <div className="connect-links">
+                        <a className="connect-links" href="https://github.com/nickdibartolo1/">
+                            Github
+                        </a>
+                        <a className='connect-links'
+                            href="https://www.linkedin.com/in/nicholas-dibartolo-a93310245/">
+                            LinkedIn
+                        </a>
+                    </div>
                 </p>
             </div>
         </footer>
