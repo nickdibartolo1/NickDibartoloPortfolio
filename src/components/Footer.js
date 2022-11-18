@@ -9,11 +9,11 @@ export default function Footer() {
                     <hr />
                     <div className="connect-links">
                         <a className="connect-links" href="https://github.com/nickdibartolo1/">
-                            Github
+                        <i className="fa fa-github"></i>
                         </a>
                         <a className='connect-links'
                             href="https://www.linkedin.com/in/nicholas-dibartolo-a93310245/">
-                            LinkedIn
+                            <i className="fa fa-linkedin"></i>
                         </a>
                     </div>
                 </p>

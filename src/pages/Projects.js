@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import ProjectsTitle from '../components/ProjectsTitle'
+// import ProjectsTitle from '../components/ProjectsTitle'
+import ProjectsContent from '../components/ProjectsContent'
 import projectData from '../assets/projectData'
 
 export default function Projects() {
@@ -7,11 +8,19 @@ const [data, setData] = useState(projectData);
 
   return (
     <div>
-      <div className="title-padding">
-        <div className="container">
-          <ProjectsTitle heading="Projects" 
-          subheading="Here are some recent projects" >
-          </ProjectsTitle>
+      <div className="">
+        <div className="">
+         <h1>Projects</h1>
+         <h4>Here are some recent Projects</h4>
+          <div className="">
+            {projectData.map( content => (
+            <ProjectsContent
+            key={content.id}
+            title={content.name}
+            description={content.description}
+            img={content.img}/>
+            ))}
+          </div>
         </div>
       </div>
     </div>
