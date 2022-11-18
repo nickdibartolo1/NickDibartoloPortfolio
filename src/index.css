@@ -1,5 +1,13 @@
+*{
+    margin: 0;
+    padding: 0
+
+
+}
+
 .bg{
-    background-color:rgb(210, 203, 231)
+    background-color:rgb(210, 203, 231);
+    height: 100%
 }
 
 .intro-img{
@@ -31,7 +39,7 @@ font-family: 'Martel', serif;
 text-align: center;
 }
 
-.conatiner{
+.container{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -48,4 +56,8 @@ text-align: center;
     padding: 0 15px 0 15px;
     text-align: center;
 
+}
+
+.title-padding{
+    padding: 10rem 0
 }

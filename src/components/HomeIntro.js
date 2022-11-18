@@ -2,7 +2,7 @@ import React from 'react'
 import introIMG from '../img/introIMG.jpg'
 
 
-export default function intro() {
+export default function HomeIntro() {
     return (
         <div>
             <div className="intro-text main-text">
@@ -11,7 +11,7 @@ export default function intro() {
             </div>
             <div>
                 <img className="intro-img" src={introIMG} alt=""></img>
-                <p className="intro-text">I am an aspiring developer who recently graduated from Rutgers University's Full Stack Web Development Bootcamp.</p>
+                <p className="intro-text">I am an aspiring developer currently enrolled in Rutgers University's Full Stack Web Development Bootcamp.</p>
             </div>
         </div>
     )

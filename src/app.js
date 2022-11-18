@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarMenu from './components/NavbarMenu';
-import Home from './mainComponents/Home'
-import About from './mainComponents/About'
-import Projects from './mainComponents/Projects'
-import Resume from './mainComponents/Resume'
-import Contact from './mainComponents/Contact'
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
+import Footer from './components/Footer'
 
 
 
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/resume" element={<Resume />}></Route>
                     <Route path="/" element={<Home />}></Route>
                 </Routes>
+                <Footer/>
             </Router>
             </div>
         </>
