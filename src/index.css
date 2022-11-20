@@ -29,19 +29,27 @@
 /* .PC-image{
 
 } */
+.font-text{
+    font-family: 'Martel', serif;
+    text-decoration: underline;
+    }
 
 .main-text{
 font-family: 'Martel', serif;
+text-align: center;
 }
 
-.intro-text{
+.heading-text{
     text-align: center;
     font-family: 'Martel', serif;
     padding: 2.2rem;
 }
 
-.centered-text{
-text-align: center;
+.footer-text{
+    text-align: center;
+    font-family: 'Martel', serif;
+    padding: 2.2rem;
+    font-weight: bold;
 }
 
 .container{
@@ -51,11 +59,6 @@ text-align: center;
     text-align: left;
 }
 
-.about-text{
-    text-align: center;
-    padding: 15px
-
-}
 
 .connect-links{
     padding: 0 15px 0 15px;
@@ -67,3 +70,12 @@ text-align: center;
     padding: 10rem 0
 }
 
+.resume-button{
+    margin: 100px;
+    padding: 5px;
+}
+
+.button-cont, .centered-contact{
+    display: flex;
+    justify-content: center;
+}

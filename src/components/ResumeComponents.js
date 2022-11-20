@@ -2,22 +2,12 @@ import React from 'react'
 
 export default function ResumeComponents() {
     return (
-        <div className="container pt-5">
-            <div className="jumbotron">
-                <div className="card">
-                    <h1 className="card-header">Resume</h1>
-                    <div className="card-body">
-                        <hr />
-
-                        <a
-                            className=""
-                            href={process.env.PUBLIC_URL + "/emily-mayeski-resume.pdf"}
-                            target="_blank" rel="noreferrer"
-                        >
-                            <span>Download My Resume</span>
-                        </a>
-                    </div>
-                </div>
+        <div>
+            <h1 className="heading-text">Resume</h1>
+            <div className='button-cont'>
+                <a href={"/"}>
+                    <button className="resume-button">Download My Resume</button>
+                </a>
             </div>
         </div>
 

@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className="footer bg-dark">
             <div>
                 <p>
-                    <h3 className="centered-text text-white">Connect with me!</h3>
+                    <h3 className="footer-text text-white">Connect with me!</h3>
                     <hr />
                     <div className="connect-links">
                         <a className="connect-links" href="https://github.com/nickdibartolo1/">

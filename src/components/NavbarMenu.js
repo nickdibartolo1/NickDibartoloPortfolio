@@ -9,7 +9,7 @@ export default function ColorSchemesExample() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>NDPortfolio</Navbar.Brand>
+                    <Navbar.Brand className='font-text'>NDPortfolio</Navbar.Brand>
                     <Nav className="me-3 ">
                         <Nav.Link><NavLink to="/">Home</NavLink></Nav.Link>
                         <Nav.Link><NavLink to="/about">About</NavLink></Nav.Link>

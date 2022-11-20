@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// import {valid} from "../utils/helpers"
 
 export default function ContactForm() {
     const [name, setName] = useState('')
@@ -9,10 +10,9 @@ export default function ContactForm() {
 
     }
     return (
-        <div className="container pt-5">
+        <div className="container pt-5 centered-contact">
             <div className="jumbotron">
                 <div className="card">
-                    <h1 className="card-header">Contact Form</h1>
                     <div className="card-body">
                         <form onSubmit={submitForm}>
                             <div className="">

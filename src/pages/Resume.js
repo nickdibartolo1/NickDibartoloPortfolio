@@ -5,7 +5,6 @@ export default function Resume() {
   return (
     <div>
       <ResumeComponents></ResumeComponents>
-
     </div>
   )
 }

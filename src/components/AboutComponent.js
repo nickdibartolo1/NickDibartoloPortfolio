@@ -4,7 +4,7 @@ import about from '../img/about.jpg'
 export default function AboutComponent() {
   return (
     <div className="">
-      <h1 className="about-text">A little bit about me!</h1>
+      <h1 className="heading-text">About Me!</h1>
       <div className="container">
       <hr />
       <p className="about-left main-text">
