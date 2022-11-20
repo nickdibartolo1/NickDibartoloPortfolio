@@ -1,10 +1,11 @@
 import React from 'react'
+import ResumeComponents from '../components/ResumeComponents'
 
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
-      
-      </div>
+      <ResumeComponents></ResumeComponents>
+
+    </div>
   )
 }

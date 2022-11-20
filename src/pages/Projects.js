@@ -11,7 +11,7 @@ const [data, setData] = useState(projectData);
       <div className="">
         <div className="">
          <h1>Projects</h1>
-         <h4>Here are some recent Projects</h4>
+         <h5>Here are some recent Projects</h5>
           <div className="">
             {projectData.map( content => (
             <ProjectsContent
