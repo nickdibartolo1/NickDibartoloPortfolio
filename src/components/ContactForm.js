@@ -10,7 +10,7 @@ export default function ContactForm() {
 
     }
     return (
-        <div className="container pt-5 centered-contact">
+        <div className="container pt-5 centered-contact text-center form-margin">
             <div className="jumbotron">
                 <div className="card">
                     <div className="card-body">
@@ -19,6 +19,7 @@ export default function ContactForm() {
                                 <label>
                                     Your Name
                                     <input
+                                        className="form-control"
                                         type="text"
                                         id="name"
                                         name="name"
@@ -31,6 +32,7 @@ export default function ContactForm() {
                                 <label>
                                     Your Email
                                     <input
+                                        className="form-control"
                                         type="text"
                                         id="email"
                                         email="email"
@@ -43,6 +45,7 @@ export default function ContactForm() {
                                 <label>
                                     Message
                                     <textarea
+                                        className="form-control"
                                         type="text"
                                         id="message"
                                         message="message"
@@ -51,7 +54,7 @@ export default function ContactForm() {
                                     />
                                 </label>
                             </div>
-                            <button className="" type="submit">Submit</button>
+                            <button className="btn btn-primary" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>

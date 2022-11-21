@@ -8,7 +8,7 @@ export default function ProjectsContent({
     description = 'lorem lorem lorem lorem lorem',
 }) {
     return (
-        <div className="container pt-5">
+        <div className="container pt-5 text-center">
             <div className="jumbotron">
                 <div className="card">
                             <Link to="/projects" className="PC-image">
@@ -16,9 +16,9 @@ export default function ProjectsContent({
                             </Link>
                             <div className="card-body">
                                 <div className="">
-                                    <Link to="#">
+                                    <div>
                                         <h3 className="">{title}</h3>
-                                    </Link>
+                                    </div>
                                     <p className="">{description}</p>
                                 </div>
                             </div>
