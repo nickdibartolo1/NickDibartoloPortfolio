@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom'
 
-export default function ColorSchemesExample() {
+export default function NavbarMenu() {
     return (
         <>
             <Navbar bg="dark" variant="dark">

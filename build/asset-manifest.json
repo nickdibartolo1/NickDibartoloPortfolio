@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.js": "/static/js/main.7c581b75.chunk.js",
-    "main.js.map": "/static/js/main.7c581b75.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c7ee5608.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c7ee5608.js.map",
-    "static/js/2.086468d9.chunk.js": "/static/js/2.086468d9.chunk.js",
-    "static/js/2.086468d9.chunk.js.map": "/static/js/2.086468d9.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.086468d9.chunk.js.LICENSE.txt": "/static/js/2.086468d9.chunk.js.LICENSE.txt"
+    "main.css": "/challenge-20-assignment/static/css/main.76e99292.chunk.css",
+    "main.js": "/challenge-20-assignment/static/js/main.32556592.chunk.js",
+    "main.js.map": "/challenge-20-assignment/static/js/main.32556592.chunk.js.map",
+    "runtime-main.js": "/challenge-20-assignment/static/js/runtime-main.49f72961.js",
+    "runtime-main.js.map": "/challenge-20-assignment/static/js/runtime-main.49f72961.js.map",
+    "static/js/2.4d22a6f4.chunk.js": "/challenge-20-assignment/static/js/2.4d22a6f4.chunk.js",
+    "static/js/2.4d22a6f4.chunk.js.map": "/challenge-20-assignment/static/js/2.4d22a6f4.chunk.js.map",
+    "index.html": "/challenge-20-assignment/index.html",
+    "static/css/main.76e99292.chunk.css.map": "/challenge-20-assignment/static/css/main.76e99292.chunk.css.map",
+    "static/js/2.4d22a6f4.chunk.js.LICENSE.txt": "/challenge-20-assignment/static/js/2.4d22a6f4.chunk.js.LICENSE.txt",
+    "static/media/about.e4b1ce48.jpg": "/challenge-20-assignment/static/media/about.e4b1ce48.jpg",
+    "static/media/empCommand.b01fbd53.png": "/challenge-20-assignment/static/media/empCommand.b01fbd53.png",
+    "static/media/introIMG.e021756e.jpg": "/challenge-20-assignment/static/media/introIMG.e021756e.jpg",
+    "static/media/passwordGen.c29d728c.png": "/challenge-20-assignment/static/media/passwordGen.c29d728c.png",
+    "static/media/randomQuote.022e1949.png": "/challenge-20-assignment/static/media/randomQuote.022e1949.png",
+    "static/media/resume.30bf2665.pdf": "/challenge-20-assignment/static/media/resume.30bf2665.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7ee5608.js",
-    "static/js/2.086468d9.chunk.js",
-    "static/js/main.7c581b75.chunk.js"
+    "static/js/runtime-main.49f72961.js",
+    "static/js/2.4d22a6f4.chunk.js",
+    "static/css/main.76e99292.chunk.css",
+    "static/js/main.32556592.chunk.js"
   ]
 }
