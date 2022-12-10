@@ -11,11 +11,10 @@ export default function NavbarMenu() {
                 <Container>
                     <Navbar.Brand className='font-text'>NDPortfolio</Navbar.Brand>
                     <Nav className="me-3 ">
-                        <Nav.Link><NavLink to="/">Home</NavLink></Nav.Link>
-                        <Nav.Link><NavLink to="/about">About</NavLink></Nav.Link>
-                        <Nav.Link><NavLink to="/projects">Projects</NavLink></Nav.Link>
-                        <Nav.Link><NavLink to="/contact">Contact</NavLink></Nav.Link>
-                        <Nav.Link><NavLink to="/resume">Resume</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className="navLink" to="/">Home</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className="navLink" to="/about">About</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className="navLink" to="/projects">Projects</NavLink></Nav.Link>
+                        <Nav.Link><NavLink className="navLink" to="/resume">Resume</NavLink></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

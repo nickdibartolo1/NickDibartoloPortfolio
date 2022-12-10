@@ -11,7 +11,7 @@ export default function HomeIntro() {
             </div>
             <div>
                 <img className="intro-img" src={introIMG} alt=""></img>
-                <p className="main-text">I am an aspiring developer currently enrolled in Rutgers University's Full Stack Web Development Bootcamp.</p>
+                <p className="main-text">I am an aspiring Web Developer/Software Engineer who graduated from Rutgers University's Full Stack Web Development Bootcamp program.</p>
             </div>
         </div>
     )
