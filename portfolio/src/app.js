@@ -12,20 +12,21 @@ import Footer from './components/Footer'
 
 export default function App() {
     return (
-        <>
+
         <div className="bg">
             <Router>
-                <NavbarMenu />
-                <Routes>
-                    <Route path="/about" element={<About />}></Route>
-                    <Route path="/projects" element={<Projects />}></Route>
-                    <Route path="/resume" element={<Resume />}></Route>
-                    <Route path="/" element={<Home />}></Route>
-                </Routes>
-                <Footer/>
+                <>
+                    <NavbarMenu />
+                    <Routes>
+                        <Route exact path="/" element={<Home />}></Route>
+                        <Route exact path="/about" element={<About />}></Route>
+                        <Route exact path="/projects" element={<Projects />}></Route>
+                        <Route exact path="/resume" element={<Resume />}></Route>
+                    </Routes>
+                </>
             </Router>
-            </div>
-        </>
+            <Footer />
+        </div>
     )
 }
 

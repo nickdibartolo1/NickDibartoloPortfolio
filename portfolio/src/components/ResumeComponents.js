@@ -1,5 +1,5 @@
 import React from 'react'
-import Pdf from "../components/NDResumeUpdated.pdf"
+import Pdf from "../components/extras/NDResumeUpdated.pdf"
 
 
 

@@ -83,13 +83,6 @@ margin: 50px
     justify-content: center;
 }
 
-.no-bull{
-    list-style-type: none;
-    width: 300px;
-    margin: 1.5%;
-    text-align: center;
-    font-family: 'Martel', serif;
-}
 
 .navLink{
     margin-left: 10px;
@@ -107,4 +100,23 @@ margin: 50px
    color: rgb(75, 115, 247);
    text-decoration: none;
   
+  } 
+
+  .NDcolor{
+    color: rgb(161, 76, 161);
+    font-weight: bold;
+  }
+
+  .no-bull{
+    list-style-type: none;
+    /* width: 50px; */
+    /* margin: 1.5%; */
+    padding: 2.5%;
+    text-align: center;
+    font-family: 'Martel', serif;
+}
+
+  .p-card-style{
+    display: flex;
+    justify-content: center;
   }
