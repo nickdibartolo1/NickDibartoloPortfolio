@@ -10,7 +10,7 @@ export default function AboutComponent() {
       <hr />
       <div className="row d-flex align-items-center">
         <div className="col-6">
-        <p className="about-left main-text">
+        <p className="about-left about-component__main-text">
        I was born and raised in Northern New Jersey where I grew up in Wayne, but now reside in Totowa. I love music as I play guitar and I also enjoy working out at the gym.
        I love to travel and am fairly spontaneous when it comes to it. 
        I took a road trip across the country when I was 20 years old driving from New jersey to California! When it comes to coding I was not too familiar until college as many of my friends went into engineering fields.
