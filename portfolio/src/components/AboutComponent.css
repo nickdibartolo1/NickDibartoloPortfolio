@@ -1,4 +1,4 @@
-.heading-text{
+.about-component__header{
     text-align: center;
     font-family: 'Martel', serif;
     padding: 2.2rem;
@@ -10,7 +10,7 @@
     margin: 75px;
 }
 
-.main-text{
+.about-component__main-text{
     font-family: 'Martel', serif;
     text-align: center;
     margin: 50px

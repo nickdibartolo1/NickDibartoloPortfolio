@@ -1,10 +1,10 @@
-.heading-text{
+.home-component__header{
     text-align: center;
     font-family: 'Martel', serif;
     padding: 2.2rem;
 }
 
-.intro-img{
+.home-component__img{
     width: 340px;
     height: auto;
     display: block;
@@ -13,7 +13,7 @@
     padding: 1rem;
 }
 
-.main-text{
+.home-component__main-text{
     font-family: 'Martel', serif;
     text-align: center;
     margin: 50px

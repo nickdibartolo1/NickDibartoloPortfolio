@@ -10,7 +10,7 @@ export default function NavbarMenu() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand className='font-text'><span className='NDcolor'>ND</span>Portfolio</Navbar.Brand>
+                    <Navbar.Brand className='font-text'><span className='ND__span'>ND</span>Portfolio</Navbar.Brand>
                     <Nav className="me-3 ">
                         <Nav.Link><NavLink className="navLink" to="/">Home</NavLink></Nav.Link>
                         <Nav.Link><NavLink className="navLink" to="/about">About</NavLink></Nav.Link>

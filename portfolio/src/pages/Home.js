@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeIntro from '../components/HomeIntro'
+import HomeIntro from '../components/HomeComponent'
 
 export default function Home() {
   return (

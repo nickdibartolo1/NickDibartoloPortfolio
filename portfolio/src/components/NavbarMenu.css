@@ -3,7 +3,7 @@
     text-decoration: none;
 }
 
-.NDcolor {
+.ND__span {
     color: rgb(161, 76, 161);
     font-weight: bold;
 }
@@ -19,7 +19,6 @@
 }
 
 .navLink:hover {
-    /* box-shadow: inset 100px 100px 100px 0 white; */
     color: rgb(75, 115, 247);
     text-decoration: none;
 
