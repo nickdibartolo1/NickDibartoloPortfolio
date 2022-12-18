@@ -1,0 +1,26 @@
+.font-text {
+    font-family: 'Martel', serif;
+    text-decoration: none;
+}
+
+.NDcolor {
+    color: rgb(161, 76, 161);
+    font-weight: bold;
+}
+
+.navLink {
+    margin-left: 10px;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.navLink:hover {
+    /* box-shadow: inset 100px 100px 100px 0 white; */
+    color: rgb(75, 115, 247);
+    text-decoration: none;
+
+}

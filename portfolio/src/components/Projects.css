@@ -1,0 +1,11 @@
+.no-bull{
+  list-style-type: none;
+  padding: 2.5%;
+  text-align: center;
+  font-family: 'Martel', serif;
+}
+
+.p-card-style{
+  display: flex;
+  justify-content: center;
+}

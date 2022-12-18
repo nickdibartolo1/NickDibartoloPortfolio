@@ -1,5 +1,6 @@
 import React from 'react'
 import introIMG from '../img/introIMG.jpg'
+import './HomeIntro.css'
 
 
 export default function HomeIntro() {

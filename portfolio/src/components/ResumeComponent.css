@@ -1,0 +1,15 @@
+.heading-text{
+    text-align: center;
+    font-family: 'Martel', serif;
+    padding: 2.2rem;
+}
+
+.button-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button{
+    margin: 100px;
+    padding: 5px;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './AboutComponent.css'
 import about from '../img/about.jpg'
 
 export default function AboutComponent() {

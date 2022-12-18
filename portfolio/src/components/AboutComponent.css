@@ -1,0 +1,24 @@
+.heading-text{
+    text-align: center;
+    font-family: 'Martel', serif;
+    padding: 2.2rem;
+}
+
+.about-img{
+    width: 350px;
+    float: right;
+    margin: 75px;
+}
+
+.main-text{
+    font-family: 'Martel', serif;
+    text-align: center;
+    margin: 50px
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
