@@ -9,7 +9,7 @@ export default function ProjectsContent({
     description = '',
 }) {
     return (
-        <div className="container pt-5 text-center">
+        <div className="proj-card__media-query container pt-5 text-center">
             <div className="jumbotron">
                 <div className="card">
                     <Link to="/projects">

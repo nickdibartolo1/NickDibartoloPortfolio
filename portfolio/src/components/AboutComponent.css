@@ -13,7 +13,7 @@
 .about-component__main-text{
     font-family: 'Martel', serif;
     text-align: center;
-    margin: 50px
+    margin: 50px;
 }
 
 .container{
@@ -22,3 +22,27 @@
     justify-content: center;
     text-align: left;
 }
+
+@media all and (max-width: 1000px){
+    .about-img{
+        width: 230px;
+    };
+
+}
+
+@media all and (max-width: 600px){
+    .about-component__main-text{
+        font-size: x-small;
+
+    }
+
+}
+
+@media all and (max-width: 500px){
+    .about-img{
+        width: 180px;
+    };
+
+
+}
+
