@@ -1,6 +1,6 @@
 import React from 'react'
 import './ResumeComponent.css'
-import Pdf from "../components/extras/NDResumeUpdated.pdf"
+import Pdf from "../components/extras/resume1323.pdf"
 
 
 
